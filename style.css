@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*section one*/
+.section-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.text-block-sec-one {
+    width: 50%;
+}
+
+.section-one img {
+    width: 50%;
+    max-width: 300px;
+    max-height: auto;
+}
+
+/*section two*/
