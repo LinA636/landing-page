@@ -15,10 +15,21 @@ body {
     width: 50%;
 }
 
-.section-one img {
+img {
     width: 50%;
     max-width: 300px;
     max-height: auto;
 }
 
 /*section two*/
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.content-containers {
+    display: flex;
+    justify-content: space-around;
+}
