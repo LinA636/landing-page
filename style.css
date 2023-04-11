@@ -4,11 +4,38 @@ body {
     justify-content: space-between;
 }
 
+/*header*/
+.header-container{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.header {
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /*section one*/
 .section-one {
     display: flex;
     justify-content: space-around;
     align-items: start;
+    padding: 16px;
+    color: white;
 }
 
 .text-block-sec-one {
@@ -19,6 +46,12 @@ img {
     width: 50%;
     max-width: 300px;
     max-height: auto;
+}
+
+/*backgroung color of header and section one*/
+.section-one,
+.header-container{
+    background-color: rgb(47, 47, 105);
 }
 
 /*section two*/
